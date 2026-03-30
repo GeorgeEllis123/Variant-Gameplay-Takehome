@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+
+# If you run package:zip with output inside this folder
+variant-gameplay-takehome-candidate.zip

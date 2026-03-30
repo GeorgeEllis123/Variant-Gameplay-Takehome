@@ -1,0 +1,26 @@
+{
+  "name": "variant-gameplay-takehome",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Standalone Phaser 4 + Spine starter for Variant gameplay programming take-home",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "package:zip": "bash scripts/package-for-candidate.sh",
+    "sync-spine-catalogs": "node scripts/sync-spine-catalogs.mjs",
+    "copy-spine": "node scripts/copy-spine-from-monorepo.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@esotericsoftware/spine-phaser-v4": "4.2.102",
+    "phaser": "4.0.0-rc.6"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}
