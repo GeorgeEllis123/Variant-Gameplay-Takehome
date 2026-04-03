@@ -91,12 +91,12 @@ class CrowdSurfScene extends Phaser.Scene {
 
     this.add.graphics()
       .fillStyle(0x110830)
-      .fillRect(0, CROWD_Y + 50, W, H - CROWD_Y - 50)
+      .fillRect(0, CROWD_Y, W, H - CROWD_Y)
       .setDepth(2);
 
     this.add.graphics()
       .lineStyle(2, 0x8855cc, 0.7)
-      .lineBetween(0, CROWD_Y + 52, W, CROWD_Y + 52)
+      .lineBetween(0, CROWD_Y, W, CROWD_Y)
       .setDepth(3);
 
     // crowd
