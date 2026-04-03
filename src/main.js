@@ -3,8 +3,8 @@ import { SpinePlugin } from '@esotericsoftware/spine-phaser-v4';
 
 // --- constants ---
 
-const VIEW_W = 1280;
-const VIEW_H = 720;
+const VIEW_H = 1280;
+const VIEW_W = 720;
 
 const CROWD_Y = VIEW_H * 0.73;
 const HERO_Y = CROWD_Y - 155;
